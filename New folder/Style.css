@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to top, darkblue, black);
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.value_text{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.image-btn {
+    background-color: rgb(10, 5, 26); 
+    background-image: url('homa.png'); 
+    background-size: cover;
+    background-position: center;
+    border: 5px solid rgb(3, 3, 75);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.image-btn:active {
+    transform: scale(0.95);
+}
